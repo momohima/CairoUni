@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cairo University</title>
+  <!-- Render All Elements Normally -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <!-- Font Awesome Library -->
+  <link rel="stylesheet" href="css/all.min.css">
+  <!-- Main Template Css File -->
+  <link rel="stylesheet" href="css/main.css">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;700&family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Start Header -->
+  <section class="header">
+    <nav>
+      <img src="images/logo.jpg" alt="logo">
+      <div class="nav-links" id="navlinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="#header">HOME</a></li>
+          <li><a href="#course">COURSES</a></li>
+          <li><a href="#facilites">FACULTIES</a></li>
+          <li><a href="#contact">CONTACT</a></li>
+          <li><a href="#about">ABOUT US</a></li>
+        </ul>
+      </div>
+      <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <div class="text-box">
+      <h1>One of the world's Largest Universities</h1>
+      <p>Cairo University is one of the largest and oldest current Egyptian 
+         and Arab universities and has many faculties such as
+         the Faculty of Commerce , Engineering , Arts and Law.
+         The university is located in Giza , Egypt .
+      </p>
+      <a href="#" class="v-btn">Visit Us To Know More</a>
+    </div>
+  </section>
+  <!-- End Header -->
+  <!-- Start Course -->
+  <section class="course" id="course">
+    <h1>Courses We Offer</h1>
+    <p>Our courses include computers , languages and human resource management</p>
+    <div class="row">
+        <div class="course-col">
+            <h3>Icdl</h3>
+            <p>
+               It - Windows <br>
+               Word - Excel <br>
+               Access - Internet <br>
+               Project - Power Point.
+            </p>
+        </div>
+        <div class="course-col">
+            <h3>Languages</h3>
+            <p>
+               English - Chinese <br>
+               German - Spanish <br>
+               French - Turkish <br>
+               Japanese.
+            </p>
+        </div>
+        <div class="course-col">
+            <h3>Hr</h3>
+            <p>
+               Training - recruitment <br>
+               Labor Law - Job Analysis <br>
+               Job Description - Motivation.
+            </p> 
+        </div>
+    </div>  
+  </section>
+  <!-- End Course -->
+  <!-- Start Facilites -->
+  <section class="facilites" id="facilites">
+    <h1>Our Facilites</h1>
+      <p>
+        The faculties of the university are commerce , literature and engineering etc..
+      </p>
+    <div class="row">
+      <div class="facilites-col">
+        <img src="images/commerce.jpg" alt="commerce">
+        <h3>Faculty of commerce</h3>
+        <p>
+          The Faculty of Commerce was established in 1911 and it's 
+          one of the oldest colleges in the university.
+        </p>
+      </div>
+      <div class="facilites-col">
+        <img src="images/arts.jpg" alt="arts">
+        <h3>Faculty of arts</h3>
+        <p>
+          The Faculty of Arts was established in 1908 and It has 
+          many of departments
+        </p>
+      </div>
+      <div class="facilites-col">
+        <img src="images/engineering.jpg" alt="">
+        <h3>Faculty of engineering</h3>
+        <p>
+          The Faculty of engineering was established in 1816 and it has
+          many of departments
+        </p>
+      </div>
+    </div>
+  </section>
+  <!-- End Facilites -->
+  <!-- Start Cta -->
+  <section class="cta">
+    <h1> Enroll For Our Online Courses </h1>
+    <a href="#" class="v-btn">Contact Us</a>
+  </section>
+  <!-- End Cta -->
+  <!-- Start Contact -->
+  <section class="location">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13817.33343991574!2d31.2085406!3d30.0272927!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xbd9781bf40115c5d!2sCairo%20University!5e0!3m2!1sen!2seg!4v1652976965058!5m2!1sen!2seg" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+  </section>
+  <section class="contact-us" id="contact">
+    <div class="row">
+      <div class="contact-col">
+        <div>
+          <i class="fa fa-solid fa-home"></i>
+          <span>
+            <h5>Cairo University</h5> 
+            <p>1 Cairo University , Giza</p>
+          </span>
+        </div>
+        <div>
+          <i class="fa fa-solid fa-phone"></i>
+          <span>
+            <h5>02 35676105</h5> 
+            <p>Monday to Saturday , 10AM to 8PM</p>
+          </span>
+        </div>
+        <div>
+          <i class="fa fa-solid fa-envelope"></i>
+          <span>
+            <h5>CairoUni@yahoo.com</h5>
+            <p>Email Us Your query</p> 
+          </span>
+        </div>
+      </div>
+      <div class="contact-col">
+        <input type="text" placeholder="Enter Your Name" required>
+        <input type="email" placeholder="Enter Your Email Address" required>
+        <input type="text" placeholder="Enter Your Subject" required>
+        <textarea rows="8" placeholder="Message" required></textarea>
+        <button type="submit" class="v-btn">Send Message</button>
+      </div>
+    </div>
+  </section>
+  <!-- End Contact -->
+  <!-- Start Footer-->
+  <section class="footer" id="about">
+    <h4>About Us</h4>
+    <p>Cairo University is one of the largest and oldest universities</p>
+    <div class="icons">
+        <a href="#"><i class="fa-brands fa-facebook-f fa"></i></a>
+        <a href="#"><i class="fa-brands fa-twitter fa"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram fa"></i></a>
+        <a href="#"><i class="fa-brands fa-linkedin-in fa"></i></a>
+    </div>
+    <p>Made with <i class="fa-solid fa-heart"></i> by Mohamed HaZard</p>
+  </section>
+  <!-- End Footer-->
+  <!-- Javascript for toggle menu -->
+  <script>
+    var navlinks = document.getElementById("navlinks");
+    function showMenu() {
+      navlinks.style.right = "0";
+    }
+    function hideMenu() {
+      navlinks.style.right = "-200px";
+    }
+  </script>
+</body>
+</html>
